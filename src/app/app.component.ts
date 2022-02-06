@@ -5,21 +5,15 @@ import { CUSTOMERS } from './customers';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
   customers = CUSTOMERS;
   currentCustomer = 'Maria';
-
-
-
-
-
-  getVal(): number { return 2; }
-
+  dyName= "patil"
+  uname = 'Mayur';
 
 }
-
 
 /*
 Copyright Google LLC. All Rights Reserved.
